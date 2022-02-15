@@ -1,0 +1,30 @@
+{
+  "name": "promise-catch-loader",
+  "version": "1.0.2",
+  "description": "a webpack loader which add catch function",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node _test/index.js",
+    "release": "release-it"
+  },
+  "keywords": [
+    "babel-plugin",
+    "promise",
+    "catch",
+    "loader"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/generator": "^7.12.11",
+    "@babel/parser": "^7.12.11",
+    "@babel/template": "^7.12.7",
+    "@babel/traverse": "^7.17.0",
+    "@babel/types": "^7.17.0",
+    "loader-utils": "^2.0.0"
+  },
+  "devDependencies": {
+    "loader-runner": "^4.2.0",
+    "release-it": "^14.2.2"
+  }
+}
